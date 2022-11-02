@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-size: 260%;
-    font-family: sans-serif;
+    font-family: ofont_ru_Whitehall;
     margin: 0 auto;
     padding: 0;
     background: url(/img/stars.jpg) fixed;
@@ -21,18 +21,16 @@ a {
     color: #ffffff;
     padding: 0 5px;
     text-decoration: none;
-    font-family: sans-serif;   
     /* letter-spacing: -1px; */
 }
 
 h2 {
     font-size: 40px;
-    font-family: sans-serif;
     font-weight: 400;
     /* padding: 0 0 10px; */
 }
 
-h4{
+h4 {
     font-size: 35px;
     color: #ffffff;
 }
@@ -49,7 +47,7 @@ h4{
     position: fixed;
     top: 40px;
     left: 360px;
-    font-family: helvetica, sans-serif;
+    /* font-family: helvetica, sans-serif; */
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
@@ -100,19 +98,21 @@ h4{
 }
 
 @font-face {
-    font-family: BroadaxeRevolution;
     /* Гарнитура шрифта */
-    src: url(/font/BroadaxeRevolution.ttf);
+    font-family: ofont_ru_Whitehall;
     /* Путь к файлу со шрифтом */
+    src: url("/font/ofont_ru_Whitehall.ttf") format("truetype");    
+    font-style: normal;
+    font-weight: normal;
 }
 
 
-#container div img{
+#container div img {
     width: 97%;
-    margin-top:55px;
-    }
+    margin-top: 55px;
+}
 
-.box {
+.box {  
     border: 4px solid #222222;
     width: 390px;
     height: 650px;
